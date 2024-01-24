@@ -1,0 +1,36 @@
+{
+  "name": "@feast/drawing",
+  "version": "0.1.0",
+  "description": "System.Drawing in js/ts",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  "types": "dist/types/index.d.ts",
+  "author": "Feast",
+  "scripts": {
+    "dev": "rollup -w -c rollup.config.js",
+    "build": "rollup -c rollup.config.js",
+    "test": "tsc ./__test__/test.ts && node ./__test__/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/feast107/drawing.git"
+  },
+
+  "homepage": "https://github.com/feast107/drawing",
+  "license": "MIT",
+  "keywords": [
+    "drawing",
+    "geometry",
+    "rectangle",
+    "size",
+    "point"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.3.3"
+  }
+}
