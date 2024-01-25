@@ -1,5 +1,5 @@
 {
-  "name": "@feast/drawing",
+  "name": "@feast107/drawing",
   "version": "0.1.0",
   "description": "System.Drawing in js/ts",
   "main": "dist/index.cjs.js",
